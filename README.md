@@ -2,6 +2,14 @@
 
 This is an application that can be used to create notes
 
+## User Story
+
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+
+## Acceptance Criteria
+
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
@@ -16,16 +24,16 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-The application should have a db.json file on the back end that will be used to store and retrieve notes using the fs module.
+## Usage
 
-The following HTML routes should be created:
+## Dependencies
 
-GET /notes should return the notes.html file.
+- Express
+- Node.js
+- uuid
 
-GET \* should return the index.html file.
+## Deployed link
 
-The following API routes should be created:
+## Repository link
 
-GET /api/notes should read the db.json file and return all saved notes as JSON.
-
-POST /api/notes should receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
+## Screenshot
