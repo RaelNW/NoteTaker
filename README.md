@@ -24,8 +24,6 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-## Usage
-
 ## Dependencies
 
 - Express
@@ -34,6 +32,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Deployed link
 
+https://andikanotes-8cb45581cc34.herokuapp.com/notes
+
 ## Repository link
 
+https://github.com/RaelNW/NoteTaker.git
+
 ## Screenshot
+
+<img width="1470" alt="Screenshot 2023-09-06 at 6 32 27 PM" src="https://github.com/RaelNW/NoteTaker/assets/125225839/ed23b2dc-8acc-4091-a8df-9f9e9c850a68">
