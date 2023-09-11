@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public")); //Serve the static files in the public folder
+
 app.use("/api", api); //Set api routes to be accessible under the path /api
 app.use("/", routes_html); //Set html routes to be accessible under the path /
 
